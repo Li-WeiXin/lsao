@@ -1,0 +1,44 @@
+{
+  "name": "lsao",
+  "version": "1.0.1",
+  "description": "**Welcome to lsao's Cabin!**",
+  "workspaces": [
+    "packages/*"
+  ],
+  "files": [
+    "README.md",
+    "LICENSE",
+    "TODO.md",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:all": "lerna publish from-package --no-git-reset --no-private",
+    "publish:lsao": "npm publish"
+  },
+  "devDependencies": {
+    "lerna": "^8.2.3",
+    "pnpm": "^10.13.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Li-WeiXin/lsao.git"
+  },
+  "keywords": [
+    "monorepo",
+    "lerna",
+    "cli",
+    "sdk",
+    "study"
+  ],
+  "author": "weixin.li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Li-WeiXin/lsao/issues"
+  },
+  "homepage": "https://github.com/Li-WeiXin/lsao#readme"
+}

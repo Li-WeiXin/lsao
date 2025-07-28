@@ -1,0 +1,22 @@
+{
+  "name": "@lsao/cli",
+  "version": "1.0.0",
+  "description": "CLI tool for lsao",
+  "main": "index.js",
+  "bin": {
+    "lsao": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lsao",
+    "cli",
+    "scaffolding"
+  ],
+  "author": "weixin.li",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}

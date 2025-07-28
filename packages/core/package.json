@@ -1,0 +1,19 @@
+{
+  "name": "@lsao/core",
+  "version": "1.0.0",
+  "description": "Core SDK for lsao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lsao",
+    "sdk",
+    "core"
+  ],
+  "author": "weixin.li",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
