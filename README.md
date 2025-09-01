@@ -26,9 +26,9 @@ In addition, lsao also has a series of derivative packages, forming a complete e
 
 Core SDK package, providing basic functions and shared tools.
 
-#### @lsao/client
+#### @lsao/git-shared
 
-Client SDK package, built on the core package, providing client-specific functions.
+Git-shared SDK package, built on the core package, providing git-shared-specific functions.
 
 #### @lsao/cli
 
@@ -81,9 +81,9 @@ lsao 不仅包含了知识分享和文章内容，也可以直接访问上述 bl
 
 核心 SDK 包，提供基础功能和共享工具。
 
-### @lsao/client
+### @lsao/git-shared
 
-客户端 SDK 包，基于核心包构建，提供客户端特定功能。
+git-shared SDK 包，基于核心包构建，提供 git-shared 相关功能。
 
 ### @lsao/cli
 

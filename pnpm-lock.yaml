@@ -17,9 +17,9 @@ importers:
 
   packages/cli: {}
 
-  packages/client: {}
-
   packages/core: {}
+
+  packages/git-shared: {}
 
 packages:
 
